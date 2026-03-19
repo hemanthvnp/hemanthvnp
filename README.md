@@ -1,16 +1,70 @@
-## Hi there 👋
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Hemanth%20Vasudev%20N%20P&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Backend%20Developer%20%7C%20Machine%20Learning%20Enthusiast&descSize=22&descColor=FFFFFF&descAlignY=65" width="100%"/>
 
-<!--
-**hemanthvnp/hemanthvnp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=hemanthvnp&label=Profile%20views&color=00FFFF&style=flat-square" />
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📌 About Me
+
+* 🎓 M.Sc. Software Systems student at PSG Tech
+* ⚙️ Focused on **Backend Development** and **Machine Learning**
+* 🧠 Strong in **Data Structures, Problem Solving, and Core CS**
+* 🚀 Passionate about building **scalable systems and intelligent applications**
+
+---
+
+## 🧠 Focus Areas
+
+* Backend Development (API Design, System Architecture)
+* Machine Learning (Model Building, Practical Applications)
+* Scalable Systems & Performance Optimization
+* Data Structures & Algorithmic Problem Solving
+
+---
+
+## 📌 Featured Projects
+
+* 🔹 **[CineScope](https://github.com/hemanthvnp/CineScope)**
+  Backend-driven application for managing and exploring movie data with efficient API design and database integration
+
+* 🔹 **[MargaMetis](https://github.com/hemanthvnp/MargaMetis)**
+  Scalable system integrating backend logic with data-driven insights, focusing on performance and structured architecture
+
+* 🔹 **[LeaveFlow](https://github.com/hemanthvnp/LeaveFlow)**
+  Backend leave management system with workflow automation, database integration, and efficient request handling
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages:**
+C, C++, Python, JavaScript
+
+**Frontend:**
+HTML, CSS, React.js
+
+**Backend:**
+Node.js, Express, NestJS, FastAPI, Flask
+
+**Databases:**
+MySQL, PostgreSQL, MongoDB, Oracle SQL
+
+**Tools:**
+Git, Linux, Postman
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=hemanthvnp&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hemanthvnp&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+<p align="center">
+  ⭐ <b>Building scalable backend systems and intelligent ML solutions</b>
+</p>
