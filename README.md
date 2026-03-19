@@ -55,6 +55,15 @@
 
 ---
 
+## 🔗 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/hemanthvasudevnp/">LinkedIn</a> •
+  <a href="https://leetcode.com/u/hemanth_vasudev/">LeetCode</a>
+</p>
+
+---
+
 <p align="center">
   ⭐ <b>Building scalable backend systems and intelligent ML solutions</b>
 </p>
