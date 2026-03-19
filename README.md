@@ -11,6 +11,7 @@
 * 🎓 M.Sc. Software Systems student at PSG Tech
 * ⚙️ Focused on **Backend Development** and **Machine Learning**
 * 🧠 Strong in **Data Structures, Problem Solving, and Core CS**
+* ☁️ Experience with **Google Cloud Platform (GCP)** and **Microsoft Azure**
 * 🚀 Passionate about building **scalable systems and intelligent applications**
 
 ---
@@ -26,33 +27,22 @@
 
 ## 📌 Featured Projects
 
-*  **[CineScope](https://github.com/hemanthvnp/CineScope)**
+* 🔹 **[CineScope](https://github.com/hemanthvnp/CineScope)**
   Backend-driven application for managing and exploring movie data with efficient API design and database integration
 
-*  **[MargaMetis](https://github.com/hemanthvnp/MargaMetis)**
+* 🔹 **[MargaMetis](https://github.com/hemanthvnp/MargaMetis)**
   Scalable system integrating backend logic with data-driven insights, focusing on performance and structured architecture
 
-*  **[LeaveFlow](https://github.com/hemanthvnp/LeaveFlow)**
+* 🔹 **[LeaveFlow](https://github.com/hemanthvnp/LeaveFlow)**
   Backend leave management system with workflow automation, database integration, and efficient request handling
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages:**
-C, C++, Python, JavaScript
-
-**Frontend:**
-HTML, CSS, React.js
-
-**Backend:**
-Node.js, Express, NestJS, FastAPI, Flask
-
-**Databases:**
-MySQL, PostgreSQL, MongoDB, Oracle SQL
-
-**Tools:**
-Git, Linux, Postman
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,nestjs,express,fastapi,flask,python,cpp,c,mysql,postgres,mongodb,gcp,azure" />
+</p>
 
 ---
 
