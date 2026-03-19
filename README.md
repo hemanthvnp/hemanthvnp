@@ -26,13 +26,13 @@
 
 ## 📌 Featured Projects
 
-* 🔹 **[CineScope](https://github.com/hemanthvnp/CineScope)**
+*  **[CineScope](https://github.com/hemanthvnp/CineScope)**
   Backend-driven application for managing and exploring movie data with efficient API design and database integration
 
-* 🔹 **[MargaMetis](https://github.com/hemanthvnp/MargaMetis)**
+*  **[MargaMetis](https://github.com/hemanthvnp/MargaMetis)**
   Scalable system integrating backend logic with data-driven insights, focusing on performance and structured architecture
 
-* 🔹 **[LeaveFlow](https://github.com/hemanthvnp/LeaveFlow)**
+*  **[LeaveFlow](https://github.com/hemanthvnp/LeaveFlow)**
   Backend leave management system with workflow automation, database integration, and efficient request handling
 
 ---
