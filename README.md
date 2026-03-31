@@ -136,7 +136,7 @@ class Hemanth:
 
 ## 📬 Contact
 
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+* 📧 Email: [hemantth06@outlook.com](mailto:hemantth06@outlook.com)
 * 💼 Open to SDE Internships
 
 ---
