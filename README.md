@@ -12,8 +12,6 @@
 &nbsp;
 <a href="https://www.linkedin.com/in/hemanthvasudevnp/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
 &nbsp;
-<a href="https://leetcode.com/u/hemanth_vasudev/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black"/></a>
-&nbsp;
 <a href="https://github.com/hemanthvnp"><img src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=white"/></a>
 
 </div>
@@ -128,7 +126,6 @@ class Hemanth:
 ## 🎯 Current Focus
 
 * Building **scalable backend systems**
-* Practicing **DSA daily (LeetCode)**
 * Learning **system design & clean architecture**
 * Preparing for **SDE internships**
 
