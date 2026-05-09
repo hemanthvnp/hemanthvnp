@@ -43,6 +43,8 @@ A route optimization engine built in Python using the A\* algorithm with heurist
 A movie exploration platform for searching and analyzing films using external APIs. Pulls real-time data — ratings, genres, cast, trends — and surfaces it through a UI built around dynamic search and filtering. A lot of the work was on the API integration side: handling rate limits, caching responses, and keeping retrieval snappy.
 *Stack: JavaScript, REST APIs, Web Development*
 
+> 📌 The repos pinned below are the ones I'd point you to first.
+
 ---
 
 ### Tech Stack
@@ -88,19 +90,6 @@ A movie exploration platform for searching and analyzing films using external AP
 </td>
 </tr>
 </table>
-
----
-
-### GitHub Stats
-
-<div align="center">
-
-<a href="https://github.com/hemanthvnp">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hemanthvnp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hemanthvnp&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</a>
-
-</div>
 
 ---
 
