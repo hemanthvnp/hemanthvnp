@@ -91,12 +91,14 @@ A movie exploration platform for searching and analyzing films using external AP
 
 ---
 
-### GitHub
+### GitHub Stats
 
 <div align="center">
 
-![Hemanth's GitHub stats](https://github-readme-stats.vercel.app/api?username=hemanthvnp&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hemanthvnp&layout=compact&theme=default&hide_border=true&langs_count=8)
+<a href="https://github.com/hemanthvnp">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hemanthvnp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hemanthvnp&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+</a>
 
 </div>
 
