@@ -16,7 +16,7 @@ Backend, algorithms, and the messy bits in between.
 
 ### Hi, I'm Hemanth.
 
-I'm pursuing my M.Sc. (Integrated) in Software Systems at PSG College of Technology, currently sitting at a CGPA of **8.59 / 10**. Most of what I build leans toward the backend — APIs, algorithms, and the kind of code that runs quietly behind a UI.
+I'm pursuing my M.Sc. (Integrated) in Software Systems at PSG College of Technology. Most of what I build leans toward the backend — APIs, algorithms, and the kind of code that runs quietly behind a UI.
 
 I'm actively looking for **SDE internships** where I can work on real systems alongside engineers who care about how things are built, not just that they work.
 
