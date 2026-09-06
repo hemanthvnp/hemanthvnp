@@ -21,11 +21,10 @@ I'm pursuing my M.Sc. (Integrated) in Software Systems at PSG College of Technol
 I'm actively looking for **SDE internships** where I can work on real systems alongside engineers who care about how things are built.
 
 **What I work with:**
-- **Languages:** Python, C++, C, JavaScript
-- **Frameworks:** FastAPI, Flask, Node.js, React.js
-- **Libraries:** scikit-learn, NumPy, SciPy, sentence-transformers, asyncio
-- **Databases:** PostgreSQL, MongoDB, MySQL, Redis
-- **DevOps:** Docker, Linux, Git, Postman
+- **Languages:** Python, Java, C++
+- **Frameworks:** FastAPI, Flask, Express.js, React.js
+- **Databases:** MySQL, PostgreSQL, MongoDB, Redis
+- **Tools:** Docker, Git, GitHub Actions, Postman
 
 **What I'm spending time on right now:**
 - Sharpening DSA fundamentals in C++
@@ -36,21 +35,17 @@ I'm actively looking for **SDE internships** where I can work on real systems al
 
 ### Projects
 
-**[CineScope](https://github.com/hemanthvnp/CineScope) — Film Discovery & Recommendation Platform**
-My piece of a 3-person project: the ML service, hybrid recommender, and the AI orchestration layer. The interesting part was the query pipeline — Groq LLaMA 3.1 with function calling classifies free-text queries into 8 intent types and 10 entity fields, replacing the keyword-matching approach. On the ML side, a TF-IDF + TruncatedSVD hybrid recommender with a tiered fallback strategy (hybrid → content-only → genre → trending) based on how much signal the user has given. Service calls fan out in parallel via asyncio with per-service circuit breakers.
-*Stack: Python, FastAPI, scikit-learn, asyncio, MongoDB, Docker, GitHub Actions*
-
 **[Throttlr](https://github.com/hemanthvnp/Throttlr) — High-Performance API Gateway**
-A C++20 API gateway on Linux built around an epoll event loop and worker thread pool. Two problems I found interesting to solve: distributed rate-limit races (fixed with an atomic Redis Lua script instead of naive GET→SET) and circuit breaker state transitions on the hot path (wait-free via `compare_exchange_strong`, no mutex). Also has SIGHUP config reload with zero dropped connections and four load balancing strategies including consistent hashing.
+A C++20 API gateway on Linux handling security (TLS, JWT), traffic control (rate limiting), and automatic failover between backend servers, built around an epoll event loop and worker thread pool. Two problems I found interesting to solve: distributed rate-limit races (fixed with an atomic Redis Lua script instead of naive GET→SET) and circuit breaker state transitions on the hot path (wait-free via `compare_exchange_strong`, no mutex). Live config reload via SIGHUP updates rate limits and routing rules with zero dropped connections. Benchmarked at 28,548 req/s, P50 of 647µs, P99 of 2.82ms across 857K requests with zero failures.
 *Stack: C++20, Linux, Redis, epoll*
 
-**[MargaMetis](https://github.com/hemanthvnp/MargaMetis) — Intelligent Route Optimizer**
-Graph engine over a real Chennai OSM graph (22K nodes, 55K edges). Implemented Dijkstra, A*, Bidirectional A*, and Yen's K-Shortest from scratch — Bidirectional A* explored 12.9× fewer nodes than Dijkstra at 6ms vs 60ms. The design I'm most proud of: a cost-function injection architecture where each routing mode supplies a `(u, v, data) → float` callable at traversal time, decoupling routing logic from cost policy entirely. Groq LLaMA 3.1 with few-shot prompting parses natural-language constraints into structured JSON cost weights. Redis caching cut repeat-query latency from 3,500ms to 16ms.
-*Stack: Python, Flask, React, PostgreSQL, Redis, Docker*
+**[CineScope](https://github.com/hemanthvnp/CineScope) — Film Discovery & Recommendation Platform**
+My piece of a 3-person project: the ML service, hybrid recommender, and an API aggregation layer that routes frontend requests across 3 microservices with automatic fallback if one goes down. The recommender is a TF-IDF + TruncatedSVD hybrid with a 4-tier fallback strategy based on how much signal the user has given, plus LiteLLM-powered natural-language search for free-text queries. Deployed as 5 separate services (React, Node.js, Python), with 71 tests gating every deploy via GitHub Actions before it ships to Render.
+*Stack: Python, FastAPI, scikit-learn, asyncio, MongoDB, Docker, GitHub Actions*
 
-**[VEDA](https://github.com/hemanthvnp/VEDA) — Multi-Source Signal Fusion**
-Generalized eigenproblem solver (S_b W = λ S_w W) with three variants — classical ratio trace, Exponential DA (robust to small-sample singularity when d ≈ n), and Harmonic-mean LDA — implemented from scratch in NumPy/SciPy, no ML framework. Applied to Nifty 50 sector classification from price/volume signals: 48% accuracy vs 14.3% random baseline (3.4×). The gap between linear fusion (31%) and Random Forest (48%) is what's interesting — it quantifies how much nonlinear regime-switching is in the data. Validated the same solver on digit classification (98.7%, 6-view) and face recognition (95% rank-1, 200 subjects).
-*Stack: NumPy, SciPy*
+**[MargaMetis](https://github.com/hemanthvnp/MargaMetis) — Intelligent Route Optimizer**
+Graph engine over a real Chennai OSM graph (22K nodes, 55K edges). Implemented Dijkstra, A*, Bidirectional A*, and Yen's K-Shortest Path from scratch — optimized Yen's to run in under 1s instead of 169s, and Bidirectional A* explored 12.9× fewer nodes than Dijkstra at 6ms vs 60ms. One shared cost-function system powers all four routing algorithms across 5 routing modes, plus a provider-agnostic LLM layer (via LiteLLM) for natural-language querying. A scoring system rates each route on speed, safety, scenery, comfort, fuel use, and toll cost. Redis caching cut repeat-query latency from 3,500ms to 16ms.
+*Stack: Python, Flask, React, PostgreSQL, Redis, Docker*
 
 > 📌 The repos pinned below are the ones I'd point you to first.
 
@@ -63,9 +58,8 @@ Generalized eigenproblem solver (S_b W = λ S_w W) with three variants — class
 <td><b>Languages</b></td>
 <td>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 </td>
 </tr>
 <tr>
@@ -73,15 +67,15 @@ Generalized eigenproblem solver (S_b W = λ S_w W) with three variants — class
 <td>
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
 </td>
 </tr>
 <tr>
 <td><b>Databases</b></td>
 <td>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
 </td>
@@ -91,7 +85,7 @@ Generalized eigenproblem solver (S_b W = λ S_w W) with three variants — class
 <td>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
 </td>
 </tr>
@@ -103,7 +97,7 @@ Generalized eigenproblem solver (S_b W = λ S_w W) with three variants — class
 
 When I'm away from a terminal, I'm usually behind a camera. Photography is my way of slowing down — composition, light, the small details most people walk past. Different kind of problem-solving than code, but it scratches the same itch.
 
-I'm also part of the **Analyst team at FinVerse**, PSG Tech's finance club, where I get to look at markets and businesses through a more analytical lens. It's been a useful counterweight to the purely engineering side of my degree.
+I'm also part of the **Analyst team at FinVerse**, PSG Tech's finance club, where I get to look at markets and businesses through a more analytical lens. It's been a useful counterweight to the purely engineering side of my degree. On top of that, I'm Deputy Coordinator of the **CSA Tech Team** at the Computational Sciences Association.
 
 ---
 
