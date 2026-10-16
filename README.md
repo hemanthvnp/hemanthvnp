@@ -21,7 +21,7 @@ Integrated M.Sc. Software Systems student at PSG College of Technology (2024 to 
 I am seeking **SDE roles** where I can work on production systems alongside engineers who care about how software is built.
 
 **Current focus**
-- Data structures and algorithms in C++
+- Data structures and algorithms in Python
 - System design: concurrency, caching, and service architecture
 - End-to-end projects, including deployment, security, and fault tolerance
 
